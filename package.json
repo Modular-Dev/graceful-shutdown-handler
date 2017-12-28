@@ -1,0 +1,35 @@
+{
+  "name": "graceful-shutdown-handler",
+  "version": "1.0.0",
+  "description": "Handle server shutdowns and clean up resources",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib/**/*.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://modular-dev/graceful-shutdown-handler.git"
+  },
+  "keywords": [
+    "module",
+    "npm",
+    "babel",
+    "es6",
+    "server",
+    "shutdown"
+  ],
+  "author": "Fritz Batroni <fritz.g.batroni@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^1.2.1",
+    "mod-dev-logger": "github:Modular-Dev/mod-dev-logger"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.1",
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.3"
+  }
+}
